@@ -16,7 +16,7 @@ todo = api.model('Todo', {
     'id': fields.Integer(readOnly=True, description='The task unique identifier'),
     'task': fields.String(required=True, description='The task details'),
     'description': fields.String(required=False, description='The task description'),
-    'complete': fields.Boolean(required=False, description='Completion status')
+    'complete': fields.Boolean(required=False, description='Completion status', default=False)
 })
 
 
