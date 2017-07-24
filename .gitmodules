@@ -1,0 +1,3 @@
+[submodule "test/dot-files"]
+	path = test/dot-files
+	url = https://github.com/NateLove/dot-files.git
